@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { client } from "../libs/client";
-import { BlogContentType } from "./type";
+import { BlogContentType } from "../libs/type";
 
 export type PropsType = {
   blog: BlogContentType[];
